@@ -23,6 +23,15 @@ namespace Commander.Data
             _context.Add(cmd);
         }
 
+        public void DeleteCommand(Command cmd)
+        {
+            if(cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+            _context.Commands.Remove(cmd);
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             return _context.Commands.ToList();
@@ -42,6 +51,5 @@ namespace Commander.Data
         {
     
         }
-
     }
 }

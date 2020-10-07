@@ -1,5 +1,5 @@
 ## Commander API
-This API stores command-line snippet along with descriptive text and platform (eg: .NetCore, docker, Linux) where it supports.
+This API stores command-line snippet along with _descriptive_ text and info of supported _platform_ (eg: .NetCore, docker, Linux).
 
 ## Technology and Tools used in this application
 #### This is basically **.NET Core MVC REST API** web app

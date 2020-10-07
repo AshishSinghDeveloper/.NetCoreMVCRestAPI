@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ashish/Source Control/Personal/DotNetCoreMvcApiApp/.NetCoreMVCRestAPI-1/Commander/Commander.csproj": {}
+    "D:\\GitRepo\\DotNetMvcRestApi\\.NetCoreMVCRestAPI\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "/Users/ashish/Source Control/Personal/DotNetCoreMvcApiApp/.NetCoreMVCRestAPI-1/Commander/Commander.csproj": {
+    "D:\\GitRepo\\DotNetMvcRestApi\\.NetCoreMVCRestAPI\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashish/Source Control/Personal/DotNetCoreMvcApiApp/.NetCoreMVCRestAPI-1/Commander/Commander.csproj",
+        "projectUniqueName": "D:\\GitRepo\\DotNetMvcRestApi\\.NetCoreMVCRestAPI\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "/Users/ashish/Source Control/Personal/DotNetCoreMvcApiApp/.NetCoreMVCRestAPI-1/Commander/Commander.csproj",
-        "packagesPath": "/Users/ashish/.nuget/packages/",
-        "outputPath": "/Users/ashish/Source Control/Personal/DotNetCoreMvcApiApp/.NetCoreMVCRestAPI-1/Commander/obj/",
+        "projectPath": "D:\\GitRepo\\DotNetMvcRestApi\\.NetCoreMVCRestAPI\\Commander\\Commander.csproj",
+        "packagesPath": "C:\\Users\\ashis\\.nuget\\packages\\",
+        "outputPath": "D:\\GitRepo\\DotNetMvcRestApi\\.NetCoreMVCRestAPI\\Commander\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/ashish/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ashis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,6 +40,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

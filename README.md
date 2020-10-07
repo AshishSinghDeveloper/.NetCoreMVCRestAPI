@@ -1,5 +1,7 @@
+## Commander API
+This API stores command line snippet along with descriptive text and platfrom (eg: .NetCore, docker, Linux) where it supports.
 
-### Technology and Tools used in this application
+## Technology and Tools used in this application
 #### This is basically .NET Core MVC REST API web app
 - .Net Core 3.1
 - MVC
@@ -10,12 +12,17 @@
 - Postman (for testing API)
 - Visual Studio Code
 
-There are mainly three types of Dependency Injection provided in .Net Core
-1. Singleton (one object for everthing)
-2. Scoped (one object per request)
-3. Transist 
+## Application Architecture:
 
-In this application we used Scoped dependency injection.
+![Screen Shot 2020-10-07 at 10 21 34](https://user-images.githubusercontent.com/18711592/95352054-74e98400-0887-11eb-8dc0-e28f4b1fe9c0.png)
 
+## Other info
+There are mainly three types of Dependency Injection provided in .Net Core (called as Service Lifetimes)
+1. AddSingleton (same instance for every request)
+2. AddScoped (creates one instance per client request)
+3. AddTransist (created new instance every time)
 
+In this application we used **AddScoped service**.
 
+### Reference
+Les Jackson: https://www.youtube.com/watch?v=fmvcAzHpsk8

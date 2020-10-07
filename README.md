@@ -2,7 +2,7 @@
 This API stores command line snippet along with descriptive text and platfrom (eg: .NetCore, docker, Linux) where it supports.
 
 ## Technology and Tools used in this application
-#### This is basically .NET Core MVC REST API web app
+#### This is basically **.NET Core MVC REST API** web app
 - .Net Core 3.1
 - MVC
 - Rest Web API (created 6 API Endpoint: GET (2), POST, PUT, PATCH, DELETE)
